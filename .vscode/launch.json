@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "-Dpolyglot.engine.Inlining=false -Dpolyglot.engine.CompileImmediately=true -Dpolyglot.engine.AllowExperimentalOptions=true -Dgraal.Dump=Truffle:2  -Dgraal.PrintGraph=Network -Dpolyglot.engine.BackgroundCompilation=false -Dpolyglot.engine.TraceCompilation=true -Dpolyglot.engine.TraceCompilationDetails=true -Dpolyglot.engine.TraceInlining=true -Dgraalvm.locatorDisabled=true -Dgraal.CompilationFailureAction=Diagnose  --add-exports org.graalvm.sdk/org.graalvm.polyglot=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.nodes=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.frame=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.source=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.object=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.library=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.dsl=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.instrumentation=ALL-UNNAMED --add-exports java.base/jdk.internal.module=ALL-UNNAMED --illegal-access=permit"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "lab.truffle.App",
+            "projectName": "truffle_lab",
+            "vmArgs": "-Dpolyglot.engine.Inlining=false -Dpolyglot.engine.CompileImmediately=true -Dpolyglot.engine.AllowExperimentalOptions=true -Dgraal.Dump=Truffle:2  -Dgraal.PrintGraph=Network -Dpolyglot.engine.BackgroundCompilation=false -Dpolyglot.engine.TraceCompilation=true -Dpolyglot.engine.TraceCompilationDetails=true -Dpolyglot.engine.TraceInlining=true -Dgraalvm.locatorDisabled=true -Dgraal.CompilationFailureAction=Diagnose  --add-exports org.graalvm.sdk/org.graalvm.polyglot=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.nodes=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.frame=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.source=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.object=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.library=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.dsl=ALL-UNNAMED --add-exports org.graalvm.truffle/com.oracle.truffle.api.instrumentation=ALL-UNNAMED --add-exports java.base/jdk.internal.module=ALL-UNNAMED --illegal-access=permit"
+        }
+    ]
+}

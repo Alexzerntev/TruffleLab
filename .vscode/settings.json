@@ -1,0 +1,10 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.configuration.runtimes": [
+        {
+            "default": true,
+            "name": "JavaSE-11",
+            "path": "/home/ld/Documents/graalvm-ce-java11-22.3.0"
+        }
+    ]
+}
